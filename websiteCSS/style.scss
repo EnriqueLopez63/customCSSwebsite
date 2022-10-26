@@ -1,0 +1,45 @@
+/*jumbo*/
+$brown:rgb(#46351D);
+$darkGreen:rgb(#646F4B);
+$darkBlue:rgb(#839D9A);
+
+
+.txt1{
+    position: absolute;
+    width: 668px;
+    height: 92px;
+    left: 18px;
+    top: 252px;
+}
+
+.jumbo{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background: #BFD2BF;
+    border-radius: 25px;
+
+}
+/*end jumbo*/
+
+$brown:rgb(#46351D);
+$darkGreen:rgb(#646F4B);
+$darkBlue:rgb(#839D9A);
+
+
+.cardtxt1{
+    position: absolute;
+    width: 668px;
+    height: 92px;
+    left: 18px;
+    top: 252px;
+}
+
+.card{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background: $brown;
+    border-radius: 25px;
+
+}

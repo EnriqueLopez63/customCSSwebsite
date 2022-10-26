@@ -1,0 +1,186 @@
+/*navbar*/
+.navBar{
+    background-color: #646F4B;
+    position: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+nav ul{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav li{
+    list-style-type: none;
+    margin: 20px;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 300%;
+}
+
+
+@media only screen and (max-width:700px){
+   .navBar{
+    background-color: #646F4B;
+    position: center;
+    margin-left: 25px;
+    width: 100vh;
+    border-radius: 10px;
+   }
+
+   nav ul{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   }
+
+   nav li{
+    list-style-type: none;
+    margin: 10px;
+   }
+
+   nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 300%;
+    }
+
+
+}
+/*end navbar*/
+
+/*jumbo*/
+.jumbo-aligment {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .txt1{
+    position: absolute;
+    width: 668px;
+    height: 92px;
+    left: 18px;
+    top: 252px;
+  }
+  
+  .img1{
+    border-radius: 25px 25px 0px 0px;
+  }
+  
+  
+  .jumbo {
+    border-radius: 25px;
+    position: relative;
+    width: 700px;
+    height: 400px;
+    background: #BFD2BF;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px #000000;
+  }/*# sourceMappingURL=style.css.map */ 
+  
+  
+  @media only screen and (max-width:700px){
+    .txt1{
+      position: absolute;
+      width: 334px;
+      height: 47px;
+      left: 18px;
+      top: 252px;
+    }
+  
+    .img1{
+      border-radius: 12.5px 12.5px 0px 0px;
+      height: 200px;
+      width: 350px;
+    }
+  
+    .jumbo{
+      border-radius: 25px;
+      position: relative;
+      width: 350px;
+      height: 400px;
+      background: #BFD2BF;
+      border-radius: 25px;
+      box-shadow: 0px 4px 4px #000000;
+    }
+  }
+
+/*end jumbo*/
+
+/*card*/
+
+.card-aligment{
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  .cardh1{
+    color: white;
+    margin-left: 23px;
+  }
+  
+  .cardtxt1{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    color: white;
+    margin-left: 23px;
+  }
+  
+  .cardimg1{
+    border-radius: 25px 25px 0px 0px;
+    width: 300px;
+    height: 200px;
+  }
+  
+  
+  .card{
+    border-radius: 25px;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #46351D;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px #000000;
+  }/*# sourceMappingURL=style.css.map */ 
+  
+  
+  @media only screen and (max-width:700px){
+    .cardimg1 {
+      width: 200px;
+      
+    }  
+    .card {
+      width: 200px;
+  
+    }
+    .cardh1{
+      width:500px;
+    }
+  
+    .cardtxt1{
+      position: center;
+      width: 100px;
+      height: 100px;
+      color: white;
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+  }
+
+/*end card*/
