@@ -1,7 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* .navBar, .card-aligment, .jumbo-aligment, .page1{
+  border: 2px red solid;
+} */
+
 /*navbar*/
 .navBar{
     background-color: #646F4B;
-    position: center;
     width: 100%;
     border-radius: 10px;
 }
@@ -58,22 +72,27 @@ nav a{
 
 }
 /*end navbar*/
+/* page 1 */
 
+.page1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 /*jumbo*/
 .jumbo-aligment {
-    position: fixed;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: min-content;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
   }
-  
-  .txt1{
-    position: absolute;
-    width: 668px;
-    height: 92px;
-    left: 18px;
-    top: 252px;
-  }
+
   
   .img1{
     border-radius: 25px 25px 0px 0px;
@@ -88,7 +107,28 @@ nav a{
     background: #BFD2BF;
     border-radius: 25px;
     box-shadow: 0px 4px 4px #000000;
-  }/*# sourceMappingURL=style.css.map */ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .jumboImage {
+    width: 100%;
+    height: 60%;
+    background-image: url(images/panda1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px 25px 0px 0px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*# sourceMappingURL=style.css.map */ 
   
   
   @media only screen and (max-width:700px){
@@ -122,24 +162,27 @@ nav a{
 /*card*/
 
 .card-aligment{
-    position: fixed;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  height: min-content;
+  margin-bottom: -150px;
   }
   
   
   .cardh1{
     color: white;
-    margin-left: 23px;
+
   }
   
   .cardtxt1{
-    position: absolute;
+    position: relative;
     width: 250px;
     height: 250px;
     color: white;
-    margin-left: 23px;
+
   }
   
   .cardimg1{
@@ -157,6 +200,7 @@ nav a{
     background: #46351D;
     border-radius: 25px;
     box-shadow: 0px 4px 4px #000000;
+    margin: 10%;
   }/*# sourceMappingURL=style.css.map */ 
   
   
@@ -184,3 +228,82 @@ nav a{
   }
 
 /*end card*/
+
+
+.button1{
+  color: white;
+  text-align: center;
+  line-height: 28px;
+  width: 94px;
+  height: 32px;
+  left: 100px;
+  background: #646F4B;
+  border-radius: 10px;
+  margin-top: 50px;
+  
+
+}
+
+.button2{
+  color: white;
+  text-align: center;
+  line-height: 28px;
+  width: 94px;
+  height: 32px;
+  left: 100px;
+  background: #646F4B;
+  border-radius: 10px;
+  margin-top: 50px;
+  
+
+}
+
+.button3{
+  color: white;
+  text-align: center;
+  line-height: 28px;
+  width: 94px;
+  height: 32px;
+  left: 100px;
+  background: #646F4B;
+  border-radius: 10px;
+  margin-top: 50px;
+  
+
+}
+
+.button4{
+  color: white;
+  text-align: center;
+  line-height: 28px;
+  width: 94px;
+  height: 32px;
+  left: 100px;
+  background: #646F4B;
+  border-radius: 10px;
+  margin-top: 50px;
+  
+
+}
+
+.button2 , .button3 , .button4{
+  margin-top: -150px;
+  margin-left: 30px;
+}
+
+.grid1{
+  background-color: #5C4627;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 10px;
+  width: 400px;
+  height: 80px;
+}
+.grid2{
+  background-color: #D9D9D9;
+  text-align: center;
+  width: 550px;
+  height: 250px;
+  line-height: 240px;
+  border-radius: 10px;
+}
